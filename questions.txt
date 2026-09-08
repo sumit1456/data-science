@@ -1,0 +1,63 @@
+1. **Data Pre-processing**
+   Write a Python program to find all null values in a given data set and remove them.
+   **Resource:** Download dataset from GitHub.
+
+2. **Data Pre-processing**
+   Write a Python program to implement complete data preprocessing in a given data set.
+
+* Missing value handling
+* Encoding categorical values
+* Splitting the dataset into training and test sets
+* Feature scaling
+  **Resource:** Download dataset from GitHub.
+
+3. **Classification**
+   Write a Python program to build a Decision Tree Classifier using the Scikit-learn package for the Diabetes dataset.
+   **Resource:** https://www.kaggle.com/uciml/pima-indians-diabetes-database
+
+4. **Classification — Naïve Bayes**
+   Consider the following dataset:
+
+```python
+weather = ['Sunny','Sunny','Overcast','Rainy','Rainy','Rainy','Overcast','Sunny','Sunny','Rainy','Sunny','Overcast','Overcast','Rainy']
+
+temp = ['Hot','Hot','Hot','Mild','Cool','Cool','Cool','Mild','Cool','Mild','Mild','Mild','Hot','Mild']
+
+play = ['No','No','Yes','Yes','Yes','No','Yes','No','Yes','Yes','Yes','Yes','Yes','No']
+```
+
+Use the Naïve Bayes algorithm to predict whether the tuple **[Overcast, Mild]** belongs to which class, whether to play the sports or not.
+
+5. **Association Rules**
+   Write a Python program to read the dataset **"Iris.csv"** and apply the Apriori algorithm.
+   **Resource:** https://archive.ics.uci.edu/ml/datasets/iris
+
+6. **Data Exploration**
+   Write a Python program to read **"StudentsPerformance.csv"** file. Solve the following:
+
+* Display the shape of the dataset.
+* Display the top rows of the dataset with their columns.
+* Display randomly selected rows of the dataset.
+* Display the number of columns and names of the columns.
+
+**Resource:** https://www.kaggle.com/spscientist/students-performance-in-exams?select=StudentsPerformance.csv
+
+7. **Regression Analysis and Outlier Detection**
+   Consider the following observations/data and apply Simple Linear Regression. Find the estimated coefficients **b₀ and b₁**. Also analyze the performance of the model using the Scikit-learn package.
+
+```python
+x = np.array([1,2,3,4,5,6,7,8])
+y = np.array([7,14,15,18,19,21,26,23])
+```
+
+8. **Regression Analysis**
+   Write a Python program to implement Multiple Linear Regression model for a car dataset.
+   **Resource:** https://www.w3schools.com/python/python_ml_multiple_regression.asp
+
+9. **Clustering — K-Means**
+   Write a Python program to implement the K-Means algorithm to build a prediction model.
+   **Resource:** Download the **Credit Card Dataset (CC GENERAL.csv)** from Kaggle.
+
+10. **Clustering — Hierarchical Clustering**
+    Write a Python program to implement the Hierarchical Clustering algorithm.
+    **Resource:** Download the **Wholesale Customers dataset** from GitHub.
