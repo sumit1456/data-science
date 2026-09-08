@@ -1,0 +1,24 @@
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*/*/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Invalid / Temporary files
+*.invalid
+*/*.invalid
+
+
+# Python cache & environments
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+
+# OS specific files
+.DS_Store
+Thumbs.db
